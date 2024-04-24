@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+header{
+    width: 100%;
+    height: 160px;
+    /* background-color: black; */
+    margin-top: 20px;
+}
+header .box-img{
+    width: 12%;
+    height: 100%;
+    margin: auto;
+    background-color: aqua;
+    border-radius:50%;
+}
+header .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.box2{
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    margin-top: 30px;
+}
+.box2 .box-txt{
+    width: 30%;
+    height: 100%;
+    margin: auto;  
+    font-family: Noto Serif;
+    color: white;
+
+}
+.box3{
+    width: 50%;
+    height: 600px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    font-family: Noto Serif;
+    color: white;
+}
+.box3 button{
+    width: 60%;
+    height: 50px;
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.box3 button:hover{
+    background-color: rgb(163, 163, 163);
+    color: white;
+}
+.fb{
+    color: blue;
+}
+.tl{
+    color: rgb(46, 110, 248);
+} 
+.yt{
+    color: rgb(255, 0, 0);
+}
+.it{
+    color: rgb(171, 29, 140);
+}
+.ms{
+    color: rgb(187, 43, 187);
+}
+/* Extra larg */
+@media(min-width:1200px){
+
+}
+ /* Large devices (desktops, 992px and up) */
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+
+
+/* Medium device */
+@media(min-width: 768px) and (max-width:991.98px){
+
+}
+/*small device*/
+@media(min-width:576px) and (max-width:767.98px){
+}
+
+/*Extra small device  */
+@media(max-width:575px){
+    header{
+        width: 100%;
+        height: 160px;
+        /* background-color: black; */
+        margin-top: 20px;
+    }
+    header .box-img{
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        background-color: aqua;
+        border-radius:50%;
+    }
+    header .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .box2{
+        width: 100%;
+        height: 60px;
+        /* background-color: aquamarine; */
+        margin-top: 30px;
+    }
+    .box2 .box-txt{
+        width: 100%;
+        height: 100%;
+        margin: auto;  
+        font-family: Noto Serif;
+        color: white;
+    
+    }
+    .box3{
+        width: 80%;
+        height: 600px;
+        /* background-color: aquamarine; */
+        margin: auto;
+        font-family: Noto Serif;
+        color: white;
+    }
+    .box3 button{
+        width: 100%;
+        height: 50px;
+        /* margin-left: 100px; */
+        margin-top: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bolder;
+    
+    }
+}
